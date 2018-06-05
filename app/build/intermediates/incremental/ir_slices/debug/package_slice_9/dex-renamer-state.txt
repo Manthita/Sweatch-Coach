@@ -1,0 +1,4 @@
+#Tue Jun 05 04:23:02 CEST 2018
+base.0=/Users/antoine/Downloads/Stayfit-master/app/build/intermediates/transforms/dexMerger/debug/9
+path.0=classes.dex
+renamed.0=classes.dex

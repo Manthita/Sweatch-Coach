@@ -1,0 +1,531 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:2:1-105:12
+INJECTED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:2:1-105:12
+INJECTED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:2:1-105:12
+INJECTED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:2:1-105:12
+MERGED from [com.android.support:multidex:1.0.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/multidex-1.0.0.aar/d5f31de4e6f0035efd660055c413f2d1/AndroidManifest.xml:16:1-19:12
+MERGED from [com.github.bmarrdev:android-DecoView-charting:v0.9.3] /Users/antoine/.gradle/caches/transforms-1/files-1.1/android-DecoView-charting-v0.9.3.aar/37f1506184e0ab2e72e1d1c890624234/AndroidManifest.xml:2:1-16:12
+MERGED from [com.android.support:design:23.1.1] /Users/antoine/.gradle/caches/transforms-1/files-1.1/design-23.1.1.aar/89f9df73a4a6670f4967e5f28910d84b/AndroidManifest.xml:17:1-24:12
+MERGED from [jp.wasabeef:recyclerview-animators:2.2.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/recyclerview-animators-2.2.0.aar/193583f150c8a16da6dd5f1b2193dea9/AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.paolorotolo:appintro:3.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/appintro-3.4.0.aar/62e570454055cc8e1c1b0898611e62c2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-8.4.0.aar/3f69a7f7600f99060d7a1ef677cf246e/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-cast-8.4.0.aar/8976cd458bcbda035f549f45be700a55/AndroidManifest.xml:16:1-20:12
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/2b6d48a7980e368584216de93866b414/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/antoine/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.1.aar/fa4ac41aa89c6034ca4fc3de3a0dca21/AndroidManifest.xml:17:1-24:12
+MERGED from [com.firebaseui:firebase-ui:0.3.1] /Users/antoine/.gradle/caches/transforms-1/files-1.1/firebase-ui-0.3.1.aar/b88c0f5035e894ae24eb223548b72642/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.6.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.6.0.aar/bfce8f324a6c3c26c035d6c565d9d0d8/AndroidManifest.xml:21:1-30:12
+MERGED from [com.android.support:recyclerview-v7:23.1.1] /Users/antoine/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.1.1.aar/9c9bce49f21f44351cd3f87375c78377/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-gcm-8.4.0.aar/679debe225d3968e048fe16f5f2d9bd9/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/13ce86ff42a5cc31bc432227e6496bd6/AndroidManifest.xml:16:1-47:12
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/a942fe376a27a8dac7bd84148bdc07f4/AndroidManifest.xml:16:1-33:12
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-analytics-8.4.0.aar/58ce05232a8001e6d761501a4dddd0e1/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-8.4.0.aar/4b31521ba592746120281d3d00575f08/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/3d5ea3a969cdf5176e12fba09860220c/AndroidManifest.xml:16:1-31:12
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-appstate-8.4.0.aar/6f8660c8e83232159c8e2ce4353d908f/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/d4e0ec06c78ec0a1f870565c1393dba5/AndroidManifest.xml:16:1-33:12
+MERGED from [com.google.android.gms:play-services-games:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-games-8.4.0.aar/52ccfd33483fe6400f6daef2c6fa3241/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-drive-8.4.0.aar/7499b75efa91b0bfe470674925e0b715/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-fitness-8.4.0.aar/3a93f2cf5f6148a7b3624146fb1c1dba/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-wallet:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-wallet-8.4.0.aar/62eacb2b91b4b6bd7c570f45ba71c051/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-identity-8.4.0.aar/e90fd60d550e84a64ac8a88a85208056/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-location:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-location-8.4.0.aar/f6c695ca647393ee9a20d2559fb03505/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-maps-8.4.0.aar/c29121e2a18659d27ec8988ffecff866/AndroidManifest.xml:16:1-28:12
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-nearby-8.4.0.aar/ed7c9ce69b9bb9d65156dbb4c90560b2/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-panorama-8.4.0.aar/f461bb9605a707d182a29047452c5124/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-plus-8.4.0.aar/63cd942647458f929476c85066b2b46f/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-8.4.0.aar/7beb992222b4d7bd16c99f29ff6d7efe/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-vision-8.4.0.aar/ac25c5b440940694c54f443dbdf21b7d/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-wearable-8.4.0.aar/ed63ab89be56757d7fdaf3c199903fb2/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/efd9aec0ceba0c3d4a471fe7ac7a3e13/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/4257100032cd07f17476bb28c7dff2c1/AndroidManifest.xml:16:1-26:12
+MERGED from [com.android.support:support-v4:23.1.1] /Users/antoine/.gradle/caches/transforms-1/files-1.1/support-v4-23.1.1.aar/485b8adf94b85f5ace303e74ba6f63c7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:cardview-v7:23.1.1] /Users/antoine/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.1.1.aar/282ddd0b6cc394cd1a5a1746a186bab4/AndroidManifest.xml:17:1-24:12
+MERGED from [de.hdodenhof:circleimageview:1.3.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/circleimageview-1.3.0.aar/89c473b6f90fc65e3b9241be7fe1c6a8/AndroidManifest.xml:2:1-11:12
+MERGED from [:progressviewslib] /Users/antoine/Downloads/SweatchCoach/progressviewslib/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-16:12
+MERGED from [com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.2.32] /Users/antoine/.gradle/caches/transforms-1/files-1.1/view-pager-transforms-1.2.32.aar/98ced6bb7f5f3e77611d3233c36b191f/AndroidManifest.xml:17:1-27:12
+INJECTED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:2:1-105:12
+INJECTED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:2:1-105:12
+INJECTED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:2:1-105:12
+	package
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:3:5-40
+		INJECTED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:2:1-105:12
+		INJECTED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:2:1-105:12
+		INJECTED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-gcm-8.4.0.aar/679debe225d3968e048fe16f5f2d9bd9/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-gcm-8.4.0.aar/679debe225d3968e048fe16f5f2d9bd9/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/13ce86ff42a5cc31bc432227e6496bd6/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/13ce86ff42a5cc31bc432227e6496bd6/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/a942fe376a27a8dac7bd84148bdc07f4/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/a942fe376a27a8dac7bd84148bdc07f4/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-analytics-8.4.0.aar/58ce05232a8001e6d761501a4dddd0e1/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-analytics-8.4.0.aar/58ce05232a8001e6d761501a4dddd0e1/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/3d5ea3a969cdf5176e12fba09860220c/AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/3d5ea3a969cdf5176e12fba09860220c/AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-maps-8.4.0.aar/c29121e2a18659d27ec8988ffecff866/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-maps-8.4.0.aar/c29121e2a18659d27ec8988ffecff866/AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:6:5-79
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/13ce86ff42a5cc31bc432227e6496bd6/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/13ce86ff42a5cc31bc432227e6496bd6/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/a942fe376a27a8dac7bd84148bdc07f4/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/a942fe376a27a8dac7bd84148bdc07f4/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-analytics-8.4.0.aar/58ce05232a8001e6d761501a4dddd0e1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-analytics-8.4.0.aar/58ce05232a8001e6d761501a4dddd0e1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-maps-8.4.0.aar/c29121e2a18659d27ec8988ffecff866/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-maps-8.4.0.aar/c29121e2a18659d27ec8988ffecff866/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-nearby-8.4.0.aar/ed7c9ce69b9bb9d65156dbb4c90560b2/AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-nearby-8.4.0.aar/ed7c9ce69b9bb9d65156dbb4c90560b2/AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:8:5-82
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:8:22-63
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:13:5-71
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:13:22-69
+uses-permission#android.permission.SEND_SMS
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:14:5-66
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:14:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:15:5-80
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:15:22-78
+application
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:17:5-96:19
+MERGED from [com.github.bmarrdev:android-DecoView-charting:v0.9.3] /Users/antoine/.gradle/caches/transforms-1/files-1.1/android-DecoView-charting-v0.9.3.aar/37f1506184e0ab2e72e1d1c890624234/AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.bmarrdev:android-DecoView-charting:v0.9.3] /Users/antoine/.gradle/caches/transforms-1/files-1.1/android-DecoView-charting-v0.9.3.aar/37f1506184e0ab2e72e1d1c890624234/AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:design:23.1.1] /Users/antoine/.gradle/caches/transforms-1/files-1.1/design-23.1.1.aar/89f9df73a4a6670f4967e5f28910d84b/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.1.1] /Users/antoine/.gradle/caches/transforms-1/files-1.1/design-23.1.1.aar/89f9df73a4a6670f4967e5f28910d84b/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-8.4.0.aar/3f69a7f7600f99060d7a1ef677cf246e/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-8.4.0.aar/3f69a7f7600f99060d7a1ef677cf246e/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-cast-8.4.0.aar/8976cd458bcbda035f549f45be700a55/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-cast-8.4.0.aar/8976cd458bcbda035f549f45be700a55/AndroidManifest.xml:19:5-20
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/2b6d48a7980e368584216de93866b414/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/2b6d48a7980e368584216de93866b414/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/antoine/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.1.aar/fa4ac41aa89c6034ca4fc3de3a0dca21/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/antoine/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.1.aar/fa4ac41aa89c6034ca4fc3de3a0dca21/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.6.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.6.0.aar/bfce8f324a6c3c26c035d6c565d9d0d8/AndroidManifest.xml:28:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.6.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.6.0.aar/bfce8f324a6c3c26c035d6c565d9d0d8/AndroidManifest.xml:28:5-20
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-gcm-8.4.0.aar/679debe225d3968e048fe16f5f2d9bd9/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-gcm-8.4.0.aar/679debe225d3968e048fe16f5f2d9bd9/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/13ce86ff42a5cc31bc432227e6496bd6/AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/13ce86ff42a5cc31bc432227e6496bd6/AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/a942fe376a27a8dac7bd84148bdc07f4/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/a942fe376a27a8dac7bd84148bdc07f4/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-analytics-8.4.0.aar/58ce05232a8001e6d761501a4dddd0e1/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-analytics-8.4.0.aar/58ce05232a8001e6d761501a4dddd0e1/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-8.4.0.aar/4b31521ba592746120281d3d00575f08/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-8.4.0.aar/4b31521ba592746120281d3d00575f08/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/3d5ea3a969cdf5176e12fba09860220c/AndroidManifest.xml:20:5-30:19
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/3d5ea3a969cdf5176e12fba09860220c/AndroidManifest.xml:20:5-30:19
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-appstate-8.4.0.aar/6f8660c8e83232159c8e2ce4353d908f/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-appstate-8.4.0.aar/6f8660c8e83232159c8e2ce4353d908f/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/d4e0ec06c78ec0a1f870565c1393dba5/AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/d4e0ec06c78ec0a1f870565c1393dba5/AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-games:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-games-8.4.0.aar/52ccfd33483fe6400f6daef2c6fa3241/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-games:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-games-8.4.0.aar/52ccfd33483fe6400f6daef2c6fa3241/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-drive-8.4.0.aar/7499b75efa91b0bfe470674925e0b715/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-drive-8.4.0.aar/7499b75efa91b0bfe470674925e0b715/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-fitness-8.4.0.aar/3a93f2cf5f6148a7b3624146fb1c1dba/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-fitness-8.4.0.aar/3a93f2cf5f6148a7b3624146fb1c1dba/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-identity-8.4.0.aar/e90fd60d550e84a64ac8a88a85208056/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-identity-8.4.0.aar/e90fd60d550e84a64ac8a88a85208056/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-location:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-location-8.4.0.aar/f6c695ca647393ee9a20d2559fb03505/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-location:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-location-8.4.0.aar/f6c695ca647393ee9a20d2559fb03505/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-maps-8.4.0.aar/c29121e2a18659d27ec8988ffecff866/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-maps-8.4.0.aar/c29121e2a18659d27ec8988ffecff866/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-nearby-8.4.0.aar/ed7c9ce69b9bb9d65156dbb4c90560b2/AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-nearby-8.4.0.aar/ed7c9ce69b9bb9d65156dbb4c90560b2/AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-panorama-8.4.0.aar/f461bb9605a707d182a29047452c5124/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-panorama-8.4.0.aar/f461bb9605a707d182a29047452c5124/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-plus-8.4.0.aar/63cd942647458f929476c85066b2b46f/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-plus-8.4.0.aar/63cd942647458f929476c85066b2b46f/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-8.4.0.aar/7beb992222b4d7bd16c99f29ff6d7efe/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-8.4.0.aar/7beb992222b4d7bd16c99f29ff6d7efe/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-vision-8.4.0.aar/ac25c5b440940694c54f443dbdf21b7d/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-vision-8.4.0.aar/ac25c5b440940694c54f443dbdf21b7d/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-wearable-8.4.0.aar/ed63ab89be56757d7fdaf3c199903fb2/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-wearable-8.4.0.aar/ed63ab89be56757d7fdaf3c199903fb2/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/4257100032cd07f17476bb28c7dff2c1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/4257100032cd07f17476bb28c7dff2c1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] /Users/antoine/.gradle/caches/transforms-1/files-1.1/support-v4-23.1.1.aar/485b8adf94b85f5ace303e74ba6f63c7/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /Users/antoine/.gradle/caches/transforms-1/files-1.1/support-v4-23.1.1.aar/485b8adf94b85f5ace303e74ba6f63c7/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.1.1] /Users/antoine/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.1.1.aar/282ddd0b6cc394cd1a5a1746a186bab4/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.1.1] /Users/antoine/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.1.1.aar/282ddd0b6cc394cd1a5a1746a186bab4/AndroidManifest.xml:22:5-20
+MERGED from [de.hdodenhof:circleimageview:1.3.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/circleimageview-1.3.0.aar/89c473b6f90fc65e3b9241be7fe1c6a8/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:1.3.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/circleimageview-1.3.0.aar/89c473b6f90fc65e3b9241be7fe1c6a8/AndroidManifest.xml:9:5-20
+MERGED from [:progressviewslib] /Users/antoine/Downloads/SweatchCoach/progressviewslib/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-14:19
+MERGED from [:progressviewslib] /Users/antoine/Downloads/SweatchCoach/progressviewslib/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-14:19
+	android:supportsRtl
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:21:9-35
+	android:label
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:20:9-41
+	android:largeHeap
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:22:9-33
+	android:icon
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:19:9-43
+	android:allowBackup
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:18:9-35
+	android:theme
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:23:9-40
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:24:9-68
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:26:9-28:55
+	android:value
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:28:13-52
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:27:13-58
+activity#com.example.sweatch.coach.LoginActivity
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:29:9-34:20
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:29:19-73
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:30:13-33:29
+action#android.intent.action.MAIN
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:32:27-74
+activity#com.example.sweatch.coach.MainActivity
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:35:9-36:20
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:35:19-72
+activity#com.example.sweatch.coach.ChartActivity
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:37:9-38:51
+	android:label
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:38:13-39
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:37:19-73
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:39:9-107
+	android:value
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:39:66-105
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:39:20-65
+activity#com.facebook.FacebookActivity
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:40:9-44:48
+	android:label
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:44:13-45
+	android:configChanges
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:41:13-113
+	android:theme
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:43:13-72
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:40:19-63
+activity#com.example.sweatch.coach.OverviewActivity
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:45:9-48:20
+	android:label
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:45:19-76
+activity#com.example.sweatch.coach.FoodSummaryActivity
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:49:9-52:20
+	android:label
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:50:13-41
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:49:19-79
+activity#com.example.sweatch.coach.AppIntroActivity
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:53:9-56:20
+	android:label
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:54:13-37
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:53:19-76
+activity#com.example.sweatch.coach.BasicInfoActivity
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:57:9-60:20
+	android:label
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:58:13-38
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:57:19-77
+activity#com.example.sweatch.coach.EnterInfoActivity
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:61:9-63:20
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:61:19-77
+activity#com.example.sweatch.coach.Activity_ChangeGoal
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:64:9-65:43
+	android:label
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:65:13-41
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:64:19-79
+activity#com.example.sweatch.coach.SetGoalActivity
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:66:9-69:20
+	android:label
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:66:19-75
+activity#com.example.sweatch.coach.Food_RecyclerFrag_Main
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:70:9-74:20
+	android:parentActivityName
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:73:13-80
+	android:label
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:71:13-37
+	android:configChanges
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:72:13-59
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:70:19-82
+activity#com.example.sweatch.coach.AskLocationActivity
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:76:9-79:20
+	android:label
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:77:13-44
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:76:19-79
+activity#com.example.sweatch.coach.LoadMapActivity
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:80:9-83:20
+	android:label
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:81:13-41
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:80:19-75
+activity#com.example.sweatch.coach.Activity_ViewPager
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:84:9-88:20
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:84:19-78
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:85:13-87:74
+	android:value
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:87:17-71
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:86:17-63
+activity#com.example.sweatch.coach.AccountActivity
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:89:9-90:39
+	android:label
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:90:13-37
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:89:19-75
+service#com.example.sweatch.coach.GeocodeAddressIntentService
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:92:9-94:39
+	android:exported
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:94:13-37
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:93:13-81
+uses-feature#android.hardware.sensor.stepdetector
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:97:5-98:87
+	android:required
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:98:61-85
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:98:9-60
+uses-feature#android.hardware.sensor.stepcounter
+ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:100:5-101:86
+	android:required
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:101:60-84
+	android:name
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml:101:9-59
+uses-sdk
+INJECTED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml
+INJECTED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/multidex-1.0.0.aar/d5f31de4e6f0035efd660055c413f2d1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:multidex:1.0.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/multidex-1.0.0.aar/d5f31de4e6f0035efd660055c413f2d1/AndroidManifest.xml:18:5-42
+MERGED from [com.github.bmarrdev:android-DecoView-charting:v0.9.3] /Users/antoine/.gradle/caches/transforms-1/files-1.1/android-DecoView-charting-v0.9.3.aar/37f1506184e0ab2e72e1d1c890624234/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bmarrdev:android-DecoView-charting:v0.9.3] /Users/antoine/.gradle/caches/transforms-1/files-1.1/android-DecoView-charting-v0.9.3.aar/37f1506184e0ab2e72e1d1c890624234/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:23.1.1] /Users/antoine/.gradle/caches/transforms-1/files-1.1/design-23.1.1.aar/89f9df73a4a6670f4967e5f28910d84b/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.1.1] /Users/antoine/.gradle/caches/transforms-1/files-1.1/design-23.1.1.aar/89f9df73a4a6670f4967e5f28910d84b/AndroidManifest.xml:20:5-43
+MERGED from [jp.wasabeef:recyclerview-animators:2.2.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/recyclerview-animators-2.2.0.aar/193583f150c8a16da6dd5f1b2193dea9/AndroidManifest.xml:8:5-10:41
+MERGED from [jp.wasabeef:recyclerview-animators:2.2.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/recyclerview-animators-2.2.0.aar/193583f150c8a16da6dd5f1b2193dea9/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.paolorotolo:appintro:3.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/appintro-3.4.0.aar/62e570454055cc8e1c1b0898611e62c2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.paolorotolo:appintro:3.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/appintro-3.4.0.aar/62e570454055cc8e1c1b0898611e62c2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-8.4.0.aar/3f69a7f7600f99060d7a1ef677cf246e/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-8.4.0.aar/3f69a7f7600f99060d7a1ef677cf246e/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-cast-8.4.0.aar/8976cd458bcbda035f549f45be700a55/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-cast-8.4.0.aar/8976cd458bcbda035f549f45be700a55/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/2b6d48a7980e368584216de93866b414/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/2b6d48a7980e368584216de93866b414/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/antoine/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.1.aar/fa4ac41aa89c6034ca4fc3de3a0dca21/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/antoine/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.1.aar/fa4ac41aa89c6034ca4fc3de3a0dca21/AndroidManifest.xml:20:5-43
+MERGED from [com.firebaseui:firebase-ui:0.3.1] /Users/antoine/.gradle/caches/transforms-1/files-1.1/firebase-ui-0.3.1.aar/b88c0f5035e894ae24eb223548b72642/AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui:0.3.1] /Users/antoine/.gradle/caches/transforms-1/files-1.1/firebase-ui-0.3.1.aar/b88c0f5035e894ae24eb223548b72642/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.6.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.6.0.aar/bfce8f324a6c3c26c035d6c565d9d0d8/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.6.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.6.0.aar/bfce8f324a6c3c26c035d6c565d9d0d8/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:recyclerview-v7:23.1.1] /Users/antoine/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.1.1.aar/9c9bce49f21f44351cd3f87375c78377/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] /Users/antoine/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-23.1.1.aar/9c9bce49f21f44351cd3f87375c78377/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-gcm-8.4.0.aar/679debe225d3968e048fe16f5f2d9bd9/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-gcm-8.4.0.aar/679debe225d3968e048fe16f5f2d9bd9/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/13ce86ff42a5cc31bc432227e6496bd6/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/13ce86ff42a5cc31bc432227e6496bd6/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/a942fe376a27a8dac7bd84148bdc07f4/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/a942fe376a27a8dac7bd84148bdc07f4/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-analytics-8.4.0.aar/58ce05232a8001e6d761501a4dddd0e1/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-analytics-8.4.0.aar/58ce05232a8001e6d761501a4dddd0e1/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-8.4.0.aar/4b31521ba592746120281d3d00575f08/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-8.4.0.aar/4b31521ba592746120281d3d00575f08/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/3d5ea3a969cdf5176e12fba09860220c/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/3d5ea3a969cdf5176e12fba09860220c/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-appstate-8.4.0.aar/6f8660c8e83232159c8e2ce4353d908f/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-appstate-8.4.0.aar/6f8660c8e83232159c8e2ce4353d908f/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/d4e0ec06c78ec0a1f870565c1393dba5/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/d4e0ec06c78ec0a1f870565c1393dba5/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-games:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-games-8.4.0.aar/52ccfd33483fe6400f6daef2c6fa3241/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-games:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-games-8.4.0.aar/52ccfd33483fe6400f6daef2c6fa3241/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-drive-8.4.0.aar/7499b75efa91b0bfe470674925e0b715/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-drive-8.4.0.aar/7499b75efa91b0bfe470674925e0b715/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-fitness-8.4.0.aar/3a93f2cf5f6148a7b3624146fb1c1dba/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-fitness-8.4.0.aar/3a93f2cf5f6148a7b3624146fb1c1dba/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-wallet:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-wallet-8.4.0.aar/62eacb2b91b4b6bd7c570f45ba71c051/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-wallet:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-wallet-8.4.0.aar/62eacb2b91b4b6bd7c570f45ba71c051/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-identity-8.4.0.aar/e90fd60d550e84a64ac8a88a85208056/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-identity-8.4.0.aar/e90fd60d550e84a64ac8a88a85208056/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-location-8.4.0.aar/f6c695ca647393ee9a20d2559fb03505/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-location-8.4.0.aar/f6c695ca647393ee9a20d2559fb03505/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-maps-8.4.0.aar/c29121e2a18659d27ec8988ffecff866/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-maps-8.4.0.aar/c29121e2a18659d27ec8988ffecff866/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-nearby-8.4.0.aar/ed7c9ce69b9bb9d65156dbb4c90560b2/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-nearby-8.4.0.aar/ed7c9ce69b9bb9d65156dbb4c90560b2/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-panorama-8.4.0.aar/f461bb9605a707d182a29047452c5124/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-panorama-8.4.0.aar/f461bb9605a707d182a29047452c5124/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-plus-8.4.0.aar/63cd942647458f929476c85066b2b46f/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-plus-8.4.0.aar/63cd942647458f929476c85066b2b46f/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-8.4.0.aar/7beb992222b4d7bd16c99f29ff6d7efe/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-8.4.0.aar/7beb992222b4d7bd16c99f29ff6d7efe/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-vision-8.4.0.aar/ac25c5b440940694c54f443dbdf21b7d/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-vision-8.4.0.aar/ac25c5b440940694c54f443dbdf21b7d/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-wearable-8.4.0.aar/ed63ab89be56757d7fdaf3c199903fb2/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-wearable-8.4.0.aar/ed63ab89be56757d7fdaf3c199903fb2/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/efd9aec0ceba0c3d4a471fe7ac7a3e13/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-base-8.4.0.aar/efd9aec0ceba0c3d4a471fe7ac7a3e13/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/4257100032cd07f17476bb28c7dff2c1/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/4257100032cd07f17476bb28c7dff2c1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] /Users/antoine/.gradle/caches/transforms-1/files-1.1/support-v4-23.1.1.aar/485b8adf94b85f5ace303e74ba6f63c7/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /Users/antoine/.gradle/caches/transforms-1/files-1.1/support-v4-23.1.1.aar/485b8adf94b85f5ace303e74ba6f63c7/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.1.1] /Users/antoine/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.1.1.aar/282ddd0b6cc394cd1a5a1746a186bab4/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.1.1] /Users/antoine/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.1.1.aar/282ddd0b6cc394cd1a5a1746a186bab4/AndroidManifest.xml:20:5-43
+MERGED from [de.hdodenhof:circleimageview:1.3.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/circleimageview-1.3.0.aar/89c473b6f90fc65e3b9241be7fe1c6a8/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:1.3.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/circleimageview-1.3.0.aar/89c473b6f90fc65e3b9241be7fe1c6a8/AndroidManifest.xml:5:5-7:41
+MERGED from [:progressviewslib] /Users/antoine/Downloads/SweatchCoach/progressviewslib/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:progressviewslib] /Users/antoine/Downloads/SweatchCoach/progressviewslib/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.2.32] /Users/antoine/.gradle/caches/transforms-1/files-1.1/view-pager-transforms-1.2.32.aar/98ced6bb7f5f3e77611d3233c36b191f/AndroidManifest.xml:23:5-25:41
+MERGED from [com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.2.32] /Users/antoine/.gradle/caches/transforms-1/files-1.1/view-pager-transforms-1.2.32.aar/98ced6bb7f5f3e77611d3233c36b191f/AndroidManifest.xml:23:5-25:41
+INJECTED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml
+INJECTED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml
+		ADDED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/antoine/Downloads/SweatchCoach/app/src/main/AndroidManifest.xml
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-gcm-8.4.0.aar/679debe225d3968e048fe16f5f2d9bd9/AndroidManifest.xml:21:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-gcm-8.4.0.aar/679debe225d3968e048fe16f5f2d9bd9/AndroidManifest.xml:21:22-79
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/13ce86ff42a5cc31bc432227e6496bd6/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/13ce86ff42a5cc31bc432227e6496bd6/AndroidManifest.xml:24:22-65
+provider#com.google.android.gms.measurement.AppMeasurementContentProvider
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/13ce86ff42a5cc31bc432227e6496bd6/AndroidManifest.xml:28:7-31:37
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/13ce86ff42a5cc31bc432227e6496bd6/AndroidManifest.xml:29:11-76
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/13ce86ff42a5cc31bc432227e6496bd6/AndroidManifest.xml:31:11-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/13ce86ff42a5cc31bc432227e6496bd6/AndroidManifest.xml:30:11-90
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/13ce86ff42a5cc31bc432227e6496bd6/AndroidManifest.xml:33:7-39:18
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/13ce86ff42a5cc31bc432227e6496bd6/AndroidManifest.xml:35:11-33
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/13ce86ff42a5cc31bc432227e6496bd6/AndroidManifest.xml:34:11-83
+intent-filter#action:name:com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/13ce86ff42a5cc31bc432227e6496bd6/AndroidManifest.xml:36:9-38:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/13ce86ff42a5cc31bc432227e6496bd6/AndroidManifest.xml:37:11-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/13ce86ff42a5cc31bc432227e6496bd6/AndroidManifest.xml:37:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/13ce86ff42a5cc31bc432227e6496bd6/AndroidManifest.xml:41:7-44:37
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/13ce86ff42a5cc31bc432227e6496bd6/AndroidManifest.xml:43:11-33
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/13ce86ff42a5cc31bc432227e6496bd6/AndroidManifest.xml:44:11-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-measurement-8.4.0.aar/13ce86ff42a5cc31bc432227e6496bd6/AndroidManifest.xml:42:11-82
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/a942fe376a27a8dac7bd84148bdc07f4/AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/a942fe376a27a8dac7bd84148bdc07f4/AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/a942fe376a27a8dac7bd84148bdc07f4/AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/a942fe376a27a8dac7bd84148bdc07f4/AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/a942fe376a27a8dac7bd84148bdc07f4/AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/a942fe376a27a8dac7bd84148bdc07f4/AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-ads-8.4.0.aar/a942fe376a27a8dac7bd84148bdc07f4/AndroidManifest.xml:30:19-91
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/3d5ea3a969cdf5176e12fba09860220c/AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/3d5ea3a969cdf5176e12fba09860220c/AndroidManifest.xml:23:17-40
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/3d5ea3a969cdf5176e12fba09860220c/AndroidManifest.xml:24:17-63
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/3d5ea3a969cdf5176e12fba09860220c/AndroidManifest.xml:22:17-48
+intent-filter#action:name:com.google.android.gms.appinvite.ACTION_PREVIEW+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/3d5ea3a969cdf5176e12fba09860220c/AndroidManifest.xml:25:13-28:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/3d5ea3a969cdf5176e12fba09860220c/AndroidManifest.xml:26:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/3d5ea3a969cdf5176e12fba09860220c/AndroidManifest.xml:26:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/3d5ea3a969cdf5176e12fba09860220c/AndroidManifest.xml:27:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-8.4.0.aar/3d5ea3a969cdf5176e12fba09860220c/AndroidManifest.xml:27:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/d4e0ec06c78ec0a1f870565c1393dba5/AndroidManifest.xml:21:9-24:46
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/d4e0ec06c78ec0a1f870565c1393dba5/AndroidManifest.xml:23:19-52
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/d4e0ec06c78ec0a1f870565c1393dba5/AndroidManifest.xml:24:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/d4e0ec06c78ec0a1f870565c1393dba5/AndroidManifest.xml:22:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/d4e0ec06c78ec0a1f870565c1393dba5/AndroidManifest.xml:21:19-72
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/d4e0ec06c78ec0a1f870565c1393dba5/AndroidManifest.xml:28:9-31:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/d4e0ec06c78ec0a1f870565c1393dba5/AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/d4e0ec06c78ec0a1f870565c1393dba5/AndroidManifest.xml:31:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-auth-8.4.0.aar/d4e0ec06c78ec0a1f870565c1393dba5/AndroidManifest.xml:29:13-62
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-maps-8.4.0.aar/c29121e2a18659d27ec8988ffecff866/AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-maps-8.4.0.aar/c29121e2a18659d27ec8988ffecff866/AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-maps-8.4.0.aar/c29121e2a18659d27ec8988ffecff866/AndroidManifest.xml:24:8-31
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/4257100032cd07f17476bb28c7dff2c1/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/4257100032cd07f17476bb28c7dff2c1/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:8.4.0] /Users/antoine/.gradle/caches/transforms-1/files-1.1/play-services-basement-8.4.0.aar/4257100032cd07f17476bb28c7dff2c1/AndroidManifest.xml:22:13-58
